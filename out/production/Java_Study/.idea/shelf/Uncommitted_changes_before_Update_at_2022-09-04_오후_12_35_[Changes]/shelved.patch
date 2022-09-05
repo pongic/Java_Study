@@ -1,0 +1,8 @@
+Index: BOJ/단계별로 풀어보기/Readme.md
+===================================================================
+diff --git a/BOJ/단계별로 풀어보기/Readme.md b/BOJ/단계별로 풀어보기/Readme.md
+deleted file mode 100644
+--- a/BOJ/단계별로 풀어보기/Readme.md	(revision 339feafc3650a7861ddbfc4ec7920db90ee242df)
++++ /dev/null	(revision 339feafc3650a7861ddbfc4ec7920db90ee242df)
+@@ -1,1 +0,0 @@
+-백준 연습문제 단계별로 풀어보기
