@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.04 update" />
+    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.05 update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +28,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +78,42 @@
       <option name="project" value="LOCAL" />
       <updated>1662270859377</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2022.09.05 update">
+      <created>1662377636564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662377636564</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2022.09.05 update">
+      <created>1662377958401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662377958401</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2022.09.05 update">
+      <created>1662377991550</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662377991550</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2022.09.05 update">
+      <created>1662378563567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662378563567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2022.09.05 update">
+      <created>1662386024588</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662386024588</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2022.09.04 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022.09.04 update" />
+    <MESSAGE value="2022.09.05 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.09.05 update" />
   </component>
 </project>
