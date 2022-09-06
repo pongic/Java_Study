@@ -2,6 +2,8 @@ package Coplit;
 import java.util.Scanner;
 
 public class gugudan {
+    static int min = 2;
+    static int max = 9;
     public static void main(String[] args) {
         //TODO:
         // 0. 구구단을 정의하기 전 구구단 연산을 위한 변수를 선언합니다.
@@ -10,10 +12,15 @@ public class gugudan {
         int num = input.nextInt();
         input.close();
 
-        if (num < 2 || num >9) {
-            System.out.println(num + " 단 이 입력되었습니다.");
+        System.out.println(num + " 단 이 입력되었습니다.");
+        if (num < min || num > max) {
             System.out.println("[경고]구구단은 2단 ~ 9단 까지만 선택할 수 있습니다.");
             System.out.println("프로그램을 종료합니다.");
+        }
+        else {
+            for (int index = 1; index <= max; index++) {
+                System.out.printf("%d * %d = %d\n", num, index, num * index);
+            }
         }
         // 1. 단을 입력합니다.
         // 클래스에 포함된 메서드를 활용하기 위해 객체 생성
