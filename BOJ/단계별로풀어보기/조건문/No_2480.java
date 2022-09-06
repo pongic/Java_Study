@@ -27,6 +27,7 @@ public class No_2480 {
             max = Math.max(num1,num2);
             max = Math.max(max,num3);
             result = max * 100;
+
         }
         System.out.println(result);
     }
