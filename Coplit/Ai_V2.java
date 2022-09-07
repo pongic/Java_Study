@@ -14,15 +14,19 @@ public class Ai_V2 {
          * y      : 예측한 결과값(웹 페이지 방문자 수)
          * y_list :
          */
-
+//        double[]x_list = {580.0, 700.0, 810.0, 840.0};
         //TODO:
 
         // 사용자의 입력을 받기 위한 Scanner 객체를 생성합니다.
-
-        // 시스템 시작 안내 문구
-
+//        Scanner input = new Scanner(System.in);
+//        // 시스템 시작 안내 문구
+//        System.out.println("[인공지능 프로그램 V2]");
+//        System.out.println("==============================");
+//        System.out.print("[System] a 값을 입력하여 주세요 :");
+//        a = input.nextInt();
+//        System.out.print("[System] b 값을 입력하여 주세요 :");
+//        b = input.nextInt();
         // 이전 버전과 달리 다수의 '광고비'를 '배열'로 정의합니다.
-
         // 반복문을 활용하여 광고비 배열을 출력합니다.
 
         // 한 줄 띄기 및 예측 결과 안내 문구 출력
