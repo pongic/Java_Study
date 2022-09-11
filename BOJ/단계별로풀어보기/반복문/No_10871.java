@@ -5,17 +5,22 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
+import java.util.StringTokenizer;
 public class No_10871 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        // 스페이스바를 기준으로 문자열 분리
 
-        int N = Integer.parseInt(br.readLine());
-        int X = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int X = Integer.parseInt(st.nextToken());
+
         int[] A = new int[N];
 
+        st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
-            A[i] = Integer.parseInt(br.readLine());
+            A[i] = Integer.parseInt(st.nextToken());
         }
 
         for (int j = 0; j < N; j++) {
