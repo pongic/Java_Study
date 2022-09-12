@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.10 update" />
+    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.11 update">
+      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/Feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/KDeliveryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/KDeliveryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/Shop.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662819469910</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="2022.09.11 update">
+      <created>1662900635002</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662900635002</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +273,7 @@
     <MESSAGE value="2022.09.08 update" />
     <MESSAGE value="2022.09.09 update" />
     <MESSAGE value="2022.09.10 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022.09.10 update" />
+    <MESSAGE value="2022.09.11 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.09.11 update" />
   </component>
 </project>
