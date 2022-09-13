@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.11 update">
-      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/Feedback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/KDeliveryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/KDeliveryMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coplit/kdelivery/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coplit/kdelivery/Shop.java" afterDir="false" />
-    </list>
+    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.12 update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -251,7 +246,28 @@
       <option name="project" value="LOCAL" />
       <updated>1662900635002</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2022.09.12 update">
+      <created>1662971628000</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1662971628000</updated>
+    </task>
+    <task id="LOCAL-00031" summary="2022.09.12 update">
+      <created>1662976564459</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662976564459</updated>
+    </task>
+    <task id="LOCAL-00032" summary="2022.09.12 update">
+      <created>1662977613970</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662977613970</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +290,17 @@
     <MESSAGE value="2022.09.09 update" />
     <MESSAGE value="2022.09.10 update" />
     <MESSAGE value="2022.09.11 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022.09.11 update" />
+    <MESSAGE value="2022.09.12 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.09.12 update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
