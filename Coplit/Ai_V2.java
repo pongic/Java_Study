@@ -8,12 +8,11 @@ import java.util.Scanner;
 public class Ai_V2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int a, b;  // 예측에 필요한 요소
+        int a, b, y;  // 예측에 필요한 요소 예측한 결과값(웹 페이지 방문자 수)
+        double[] x_list = {580.0, 700.0, 810.0, 840.0};  // 예측에 필요한 광고비 배열
+
         /*
-         * 인공지능 예측에 필요한 변수를 정의합니다.
-         * a,b    : 예측에 필요한 요소
-         * x_list : 예측에 필요한 광고비 배열
-         * y      : 예측한 결과값(웹 페이지 방문자 수)
+
          * y_list :
          */
         System.out.println("[인공지능 프로그램 V2]");
@@ -23,7 +22,16 @@ public class Ai_V2 {
         System.out.print("[System] b 값을 입력하여 주세요 : ");
         b = input.nextInt();
 
+        System.out.println("[안내] 입력된 '광고비'는 다음과 같습니다.");
+        for (int i = 0; i < x_list.length; i++) {
+            System.out.printf("%d 번째) %.1f원\t",i,x_list[i]);
+        }
+        System.out.println("");
 
+        System.out.println("[안내] AI의 '웹 페이지 방문자' 예측 결과는 다음과 같습니다.");
+        for (int i = 0; i < x_list.length; i++) {
+            System.out.printf("%d 번째 예측) %.1f회 방문\n",i, a * x_list[i] + b);
+        }
         // 이전 버전과 달리 다수의 '광고비'를 '배열'로 정의합니다.
         // 반복문을 활용하여 광고비 배열을 출력합니다.
 
