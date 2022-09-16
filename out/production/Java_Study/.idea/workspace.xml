@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.14 update" />
+    <list default="true" id="0182634d-bb83-4e93-a61c-5d297be69fdb" name="Changes" comment="2022.09.15 update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,7 +302,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663162768679</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="2022.09.15 update">
+      <created>1663246916800</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1663246916800</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2022.09.15 update">
+      <created>1663247548451</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663247548451</updated>
+    </task>
+    <task id="LOCAL-00040" summary="2022.09.15 update">
+      <created>1663247561593</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663247561593</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +349,8 @@
     <MESSAGE value="2022.09.12 update" />
     <MESSAGE value="2022.09.13 update" />
     <MESSAGE value="2022.09.14 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022.09.14 update" />
+    <MESSAGE value="2022.09.15 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.09.15 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
