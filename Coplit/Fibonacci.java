@@ -10,7 +10,7 @@ public class Fibonacci {
         // 사용자의 입력값 받기.
         System.out.print("원하는 수열의 개수를 입력해 주세요 :");
         num = input.nextInt();
-        int[] array = new int[num + 1];
+        int[] array = new int[num;
         System.out.println("[피보나치 수열 출력]");
         // 2단계. 피보나치 수열의 점화식 코드 작성
         // 피보나치 수열의 첫 번째와 두 번째 값을 변수로 정의합니다.
