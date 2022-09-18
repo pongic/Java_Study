@@ -2,7 +2,38 @@ package Coplit;
 import java.util.Scanner;
 
 public class Fibonacci {
+    static Scanner input = new Scanner(System.in);
+    static int[] result;
+    static final int START_NUM = 1;
+    static int getUserInput() {
+        System.out.println("[안내]피보나치 수열 프로그램 시작.");
+        System.out.print("원하는 수열의 개수를 입력해 주세요 :");
+        int num = input.nextInt();
+        return num;
+    }
+
+    static void fibonacci(int num) {
+        result = new int[num];
+        result[0] = START_NUM;
+        result[1] = START_NUM;
+
+        for (int i = 2; i < num; i++) {
+            result[i] = result[i - 1] + result[i - 2];
+        }
+    }
+
+    static void print() {
+        System.out.println("[피보나치 수열 출력]");
+        for (int i = 0; i < result.length; i ++) {
+            System.out.println(result[i]);
+        }
+        System.out.println("[안내]프로그램을 종료합니다.");
+    }
+
     public static void main(String[] args){
+        int num = getUserInput();
+        fibonacci(num);
+        print();
         // 1단계. 프로그램 시작을 알리는 출력문 선언
 
         // 사용자의 입력값 받기.
