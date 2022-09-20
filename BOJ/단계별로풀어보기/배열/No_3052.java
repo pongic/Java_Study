@@ -8,16 +8,12 @@ public class No_3052 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int[] arr = new int[10];
+        HashSet<Integer> hashSet = new HashSet<>();
 
         for (int i = 0; i < 10; i++) {
-            arr[i] = input.nextInt();
-            arr[i] = arr[i] % 42;
+            hashSet.add(input.nextInt() % 42);
         }
-
-        for (int arrs : arr) {
-        }
-
-
+        input.close();
+        System.out.println(hashSet.size());
     }
 }
