@@ -2,24 +2,20 @@ package BOJ.단계별로풀어보기.반복문;
 import java.util.Scanner;
 public class No_1110 {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-        Scanner in = new Scanner(System.in);
+        int N = input.nextInt();
+        input.close();
+        int count = 0;
 
-        int N = in.nextInt();
-        in.close();
-
-        int cnt = 0;
-        int copy = N;
-
+        int temp = N;
         while (true) {
             N = ((N % 10) * 10) + (((N / 10) + (N % 10)) % 10);
-            cnt++;
+            count++;
 
-            if (copy == N) {
-                break;
-            }
+            if (temp == N) break;
         }
-        System.out.println(cnt);
+        System.out.println(count);
 
     }
 }
