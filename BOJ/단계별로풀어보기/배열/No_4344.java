@@ -13,6 +13,7 @@ public class No_4344 {
             double avg = 0; // 평균
             double count = 0; // 평균 넘는 학생 있을 때 증가
 
+
             for (int j = 0; j < N; j++) {
                 scores[j] = in.nextInt();  // 학생 점수 입력
                 sum += scores[j];  // 학생 점수 합
