@@ -14,7 +14,11 @@ public class No_4673 {
     }
     public static int d(int number) {
        int sum = number;
-        return sum;
-    }
 
+       while (number > 0) {
+           sum = sum + (number % 10);
+           number = number / 10;
+       }
+       return sum;
+    }
 }
