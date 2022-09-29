@@ -13,6 +13,7 @@ public class GreedyAlgorithm {
       // 첫 번째(왼쪽) 인덱스와 마지막(오른쪽) 인덱스의 합이 limit보다 작으면 인덱스 증가
 
       // 그 외에 경우는 오른쪽 인덱스만 감소
+    return count;
   }
 
   public static void main(String[] args) {
