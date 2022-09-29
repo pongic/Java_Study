@@ -5,11 +5,11 @@ public class No_11720 {
     Scanner in = new Scanner(System.in);
 
     int N = in.nextInt();
-    int[] arr = new int[N];
+    String input = in.next();
+    in.close();
     int sum = 0;
     for (int i = 0; i < N; i++) {
-      arr[i] = in.nextInt();
-      sum += arr[i];
+      sum += input.charAt(i) - '0';
     }
     System.out.println(sum);
   }
