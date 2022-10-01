@@ -6,21 +6,23 @@ public class No_10809 {
     char[] alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
     String S = in.nextLine();
     char[] charS = S.toCharArray();
-    int fail = -1;
-    in.close();
+    int[] result = new int[26];
+    for (int i = 0; i < result.length; i++) {
+      result[i] = -1;
+    }
 
     for (int i = 0; i < charS.length; i++) {
       for (int j = 0; j < alphabet.length; j++) {
         if (charS[i] == alphabet[j]) {
-          alphabet[j] = (char)i;
+          result[j] = i;
         }
-        else {
-          alphabet[j] = (char)fail;
-        }
+        else continue;
       }
     }
-    for (int i = 0; i < alphabet.length; i++) {
-      System.out.print(alphabet[i] + " ");
+
+    for (int i = 0; i < result.length; i++) {
+      System.out.print(result[i] + " ");
     }
+
   }
 }
