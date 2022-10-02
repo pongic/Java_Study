@@ -1,6 +1,5 @@
 package BOJ.단계별로풀어보기.문자열;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -32,12 +31,22 @@ public class No_1157 {
      count[i] = idx;
      idx = 0;
    }
+   max = count[0];
    for (int i = 0; i < count.length; i++) {
      if (count[i] > max) {
        max = count[i];
        maxIdx++;
      }
    }
-    System.out.println(maxIdx);
+   for (int i = 0; i < count.length; i++) {
+     if (max == count[i]) {
+       System.out.println("?");
+       break;
+     }
+     else {
+       System.out.println(newList.get(maxIdx));
+       break;
+     }
+   }
   }
 }
