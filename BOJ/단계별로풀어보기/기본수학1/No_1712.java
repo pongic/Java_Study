@@ -7,21 +7,8 @@ public class No_1712 {
     int A = in.nextInt();
     int B = in.nextInt();
     int C = in.nextInt();
-    long N = 1;
 
-    while(true) {
-      if (C >= B) {
-        if ((C * N) > (A + (B * N))) {
-          System.out.println(N);
-          break;
-        } else {
-          N++;
-        }
-      }
-      else {
-        System.out.println(-1);
-        break;
-      }
-    }
+    if (C > B) System.out.println((A / (C - B) + 1));
+    else System.out.println(-1);
   }
 }
