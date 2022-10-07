@@ -11,11 +11,15 @@ public class No_2775 {
     int[][] arr = new int[len][len]; // 2차원 배열 집
 
     // 0층의 i호에는 i명이 산다
-    for (int i = 1; i < len;i++) {
+    for (int i = 1; i < len; i++) {
       arr[0][i] = i;
     }
 
-
+    for (int i = 1; i < len; i++) {
+      for (int j = 1; j < len; j++) {
+        arr[i][j] = arr[i][j-1] + arr[i-1][j];
+      }
+    }
 
     for (int i = 0; i < T; i++) {
       int k = Integer.parseInt(br.readLine());
