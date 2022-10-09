@@ -25,5 +25,6 @@ public class No_1065 {
 
     int N = in.nextInt();
     System.out.println(hansu(N));
+
   }
 }
