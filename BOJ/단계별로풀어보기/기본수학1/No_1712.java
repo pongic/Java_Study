@@ -10,5 +10,6 @@ public class No_1712 {
 
     if (C > B) System.out.println((A / (C - B) + 1));
     else System.out.println(-1);
+
   }
 }
