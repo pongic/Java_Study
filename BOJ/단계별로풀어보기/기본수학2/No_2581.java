@@ -30,9 +30,11 @@ public class No_2581 {
         }
       }
     }
+    // 소수가 없어 total값이 변하지 않은 경우
     if (total == 0) {
       System.out.println(-1);
     }
+    // 소수가 있어 total 값과 min 값이 변한 경우
     else {
       System.out.println(total);
       System.out.println(min);
