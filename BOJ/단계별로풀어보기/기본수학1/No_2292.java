@@ -16,4 +16,5 @@ public class No_2292 {
       System.out.println(count);
     }
   }
+
 }
