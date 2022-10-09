@@ -27,5 +27,6 @@ public class No_2775 {
       sb.append(arr[k][n] + "\n");
     }
     System.out.println(sb);
+
   }
 }
