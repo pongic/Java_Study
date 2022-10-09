@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class No_1193 {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-
     int X = in.nextInt();
 
     int count = 0; // 분수 개수
