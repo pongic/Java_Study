@@ -7,5 +7,6 @@ public class No_15596 {
             sum += a[i];
         }
         return sum;
+
     }
 }
