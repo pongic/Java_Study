@@ -2,7 +2,7 @@ package Coplit;
 import java.util.*;
 
 public class chicken {
-  public ArrayList<Integer[]> newChickenRecipe(int[] stuffArr, int choiceNum) {
+  public static ArrayList<Integer[]> newChickenRecipe(int[] stuffArr, int choiceNum) {
     //사용 가능한 재료만 넣을 변수를 선언합니다
     ArrayList<Integer> freshArr = new ArrayList<>();
 
@@ -34,7 +34,7 @@ public class chicken {
     return permutation(choiceNum, new Integer[]{}, result, freshArr, visited, 0);
   }
 
-  public ArrayList<Integer[]> permutation(int choiceNum, Integer[] bucket, ArrayList<Integer[]> result, ArrayList<Integer> freshArr, boolean[] visited, int depth) {
+  public static ArrayList<Integer[]> permutation(int choiceNum, Integer[] bucket, ArrayList<Integer[]> result, ArrayList<Integer> freshArr, boolean[] visited, int depth) {
     //사용한 재료의 숫자가 choiceNum에 도달한다면(재귀의 종료)
     if(depth == choiceNum) {
       //result에 재료가 저장된 bucket 배열을 넣어준 이후
