@@ -24,4 +24,5 @@ public class No_10250 {
       System.out.println(Y * 100 + X);
     }
   }
+
 }
