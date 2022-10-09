@@ -16,5 +16,6 @@ public class No_2869 {
     if ((V - B) % (A - B) != 0) day++;
     br.close();
     System.out.println(day);
+
   }
 }
