@@ -20,5 +20,6 @@ public class No_4673 {
            number = number / 10;
        }
        return sum;
+
     }
 }
