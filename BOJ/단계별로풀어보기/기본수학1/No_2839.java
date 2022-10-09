@@ -26,5 +26,6 @@ public class No_2839 {
       }
     }
     System.out.println(count);
+
   }
 }
