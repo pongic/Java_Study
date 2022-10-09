@@ -11,15 +11,18 @@ public class No_2581 {
 
     for (int i = M; i <= N; i++) {
       boolean check = true;
+      // 1인 경우
       if (i == 1) {
         continue;
       }
+      // 소수 판별
       for (int j = 2; j <= Math.sqrt(i); j++) {
         if (i % j == 0) {
           check = false;
           break;
         }
       }
+      // 소수 총합 구하고 최솟값 구하기
       if (check) {
         total += i;
         if (i < min) {
@@ -27,7 +30,12 @@ public class No_2581 {
         }
       }
     }
-    System.out.println(total);
-    System.out.println(min);
+    if (total == 0) {
+      System.out.println(-1);
+    }
+    else {
+      System.out.println(total);
+      System.out.println(min);
+    }
   }
 }
