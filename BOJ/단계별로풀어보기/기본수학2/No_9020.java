@@ -15,11 +15,11 @@ public class No_9020 {
       check = new boolean[N + 1];
       numberCheck();
       // N까지 존재하는 소수 구하기
-      for (int j = 1; j <= N; j++) {
-        if (!check[j]) {
+      for (int j = 2; j <= N; j++) {
+        if (!check[j] && !check[N-j]) {
           // 구한 소수를 N에서 빼기
-          if (Math.abs(N - j) < min) {
-            min = Math.abs(N - j);
+          if (Math.abs(j - (N - j)) < min) {
+            min = Math.abs(j - (N - j));
             index = j;
           }
         }
