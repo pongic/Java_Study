@@ -14,14 +14,10 @@ public class No_2108 {
       sum += numbers[i];
     }
     Arrays.sort(numbers);
-    double result1 = Math.round(sum / N * 1) / 1.0;
-    int result2 = numbers[2];
 
-    int reuslt4 = numbers[numbers.length - 1] - numbers[0] ;
-
-    System.out.println(result1);
-    System.out.println(result2);
+    System.out.println(Math.round(sum / N));
+    System.out.println(numbers[(N - 1) / 2]);
     //System.out.println(result3);
-    System.out.println(reuslt4);
+    System.out.println(numbers[numbers.length - 1] - numbers[0]);
   }
 }
