@@ -16,9 +16,9 @@ public class No_1181 {
     }
     Arrays.sort(len);
 
-//    for (int i = 0; i < N; i++) {
-//
-//    }
+    for (int i = 0; i < N; i++) {
+
+    }
 
   }
 }
