@@ -9,7 +9,7 @@ public class No_9020 {
     numberCheck();
 
     int T = Integer.parseInt(br.readLine());
-
+/*
     while (T > 0) {
       int N = Integer.parseInt(br.readLine());
       int fisrt = N / 2;
@@ -26,9 +26,9 @@ public class No_9020 {
       }
     }
     System.out.println(sb);
+*/
 
 
-    /*
     // 수 입력
     for (int i = 0; i < T; i++) {
       int N = Integer.parseInt(br.readLine());
@@ -48,7 +48,6 @@ public class No_9020 {
       }
       System.out.println(index + " " + (N - index));
     }
-     */
   }
   // 소수 구하는 메서드
   public static void numberCheck() {
