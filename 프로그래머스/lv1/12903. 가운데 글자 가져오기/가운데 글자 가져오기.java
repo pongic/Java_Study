@@ -1,16 +1,11 @@
 class Solution {
     public String solution(String s) {
+        int len = s.length();
         String result = "";
-        if (s.length() % 2 != 0) {
-            char ch = s.charAt(s.length() / 2);
-            result = Character.toString(ch);
-            return result;
-        }
-        else {
-            char ch1 = s.charAt(s.length() / 2 - 1);
-            char ch2 = s.charAt(s.length() / 2);
-            result = Character.toString(ch1) + Character.toString(ch2);
-            return result;
-        }
+        if ( len % 2 == 0 )
+            result = s.substring(len / 2 - 1, (len / 2) + 1);
+        else
+            result = s.substring((len / 2), (len / 2) + 1);
+        return result;
     }
 }
